@@ -1,0 +1,126 @@
+*{padding:0;margin:0;}
+.container{
+	background-image: url(img/snrms.jpg) no-repeat center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	text-shadow: 0px 1px 2px #000;
+}
+
+button{
+	font-size: 16px;
+  background: linear-gradient(black 50%, #fff 100%);
+  color: 	#FFD700;
+  font-weight: bold;
+  cursor: pointer;
+  width: 15%;
+  padding: 10px 0;
+  outline:none;
+}
+
+html{
+	background-image: url(img/asuransi-sinarmas.jpg) no-repeat center center fixed;
+}
+body{
+ background-color: green;
+}
+a{color:#999;text-decoration:none}
+a:hover{border-bottom:1px solid #999}
+.header{
+	padding:8% 2%;
+	font-size:24px;
+	text-shadow: 0px 1px 0px #48D1CC;
+	color: #ff7e1c;
+}
+	h1.brand{
+		font-size:50px;
+		font-family: 'Oleo Script', cursive;
+		text-shadow: 0px 2px 3px #ffffff;
+	}
+	.header span.red{color:#117bff;}
+	.header span.white{color:#f1e500;}
+
+.content{padding:2%;color:#f4f4f4;}
+.content p{margin:10px 0}
+.footer{
+	padding:5% 2%;
+	width:95%;
+	position:absolute;
+	overflow:hidden;
+	color:#f4f4f4;
+}
+
+
+	.footer-left{
+		position:relative;
+		width:45%;
+		float:left;
+	}
+	.footer-right{
+		text-align:right;
+		position:relative;
+		width:45%;
+		float:right;
+	}
+
+	li.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown:hover .isi-dropdown {
+			display: block;
+		}
+
+		.isi-dropdown a:hover {
+			color: #fff !important;
+		}
+
+		.isi-dropdown {
+			position: absolute;
+			display: none;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			background-color: #f9f9f9;
+		}
+
+		.isi-dropdown a {
+			color: #3c3c3c !important;
+		}
+
+		.isi-dropdown a:hover {
+			color: #232323 !important;
+			background: #f3f3f3 !important;
+		}
+
+.table1{
+	font-family: sans-serif;
+	font-size: 17px;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+}
+
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
